@@ -1,0 +1,116 @@
+span {
+    font-weight: bold;
+}
+
+.cake {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 500px/2 + 266px);
+    top: 184px;
+    border-radius: 0px;
+}
+
+.h1-event {
+    position: absolute;
+    width: 333px;
+    height: 37px;
+    left: 240px;
+    top: 194px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    color: #240D57;
+}
+
+.p-event {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    left: 240px;
+    top: 248px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    color: #828282;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    height: 72px;
+    left: 240px;
+    top: 320px;
+    border-radius: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    height: 72px;
+    left: 240px;
+    top: 420px;
+    border-radius: 10px;
+}
+
+.upper-info {
+    width: 155px;
+    height: 21px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px; 
+    color: #240D57;
+}
+
+.lower-info {
+    width: 253px;
+    height: 21px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+
+.up-low-info {
+    margin-bottom: 55px;
+    margin-left: 25px;
+    padding: 0px;
+    gap: 3px;
+    width: 109px;
+    height: 45px;
+}
+
+.arrow {
+    margin-left: 250px;
+}
